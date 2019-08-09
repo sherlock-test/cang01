@@ -1,7 +1,8 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
+# if statement I
 
-if
-ls /etc;
-then
-echo "etc directory is ok"
+if ls /etca &> /dev/null; then
+echo " the  directory is OK"
+else
+echo " the  directory is error"
 fi

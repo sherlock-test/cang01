@@ -1,6 +1,5 @@
-#!/usr/bin/bash
-#if statement i
-
+#!/usr/bin/env bash
+# if statement I
 
 if true; then
 echo "this is true"
